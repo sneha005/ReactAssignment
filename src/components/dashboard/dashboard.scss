@@ -1,0 +1,36 @@
+.dashboard-container{
+    min-height: 450px;
+    .header{
+        display: inline-block;
+        width: 100%;
+        span{
+            &:first-child{
+                color: #fff;
+                font-size: 25px;
+            }
+            &:nth-child(2){
+                color: #fff;
+                float: right;
+                border: 1px solid #fff;
+                border-radius: 5px;
+                padding: 2px 4px;
+                cursor: pointer;
+                &:hover{
+                    transform: scale(1.1);
+                    transition: 1s;
+                }
+            }
+        }
+    }
+    .dashboard-body{
+        margin: 20px 0;
+        .article-input-container{
+            .input-area{
+                min-width: 100px;
+            }
+            .custom-btn{
+                display: block;
+            }
+        }
+    }
+}

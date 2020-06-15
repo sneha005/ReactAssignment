@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+$font-default: 'Roboto', sans-serif;
+
+body{
+    margin: 0;
+    font-family: $font-default;
+}
+#app{
+    position: relative;
+    padding: 10px;
+    background: #ccc;
+}
+input, select{
+    &.custom{
+        display: block;
+        margin: 10px auto;
+        min-width: 150px;
+        border-radius: 5px;
+        padding: 3px;
+        width: 95%;
+    }
+    .select{
+        &.custom{
+            width: 100%;
+        }
+    }
+}
+
+.text-center{
+    text-align: center;
+}
